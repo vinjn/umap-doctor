@@ -1,0 +1,898 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.LightmassImportanceVolume Name=LightmassImportanceVolume_0 Archetype=/Script/Engine.LightmassImportanceVolume'/Script/Engine.Default__LightmassImportanceVolume'
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype=BrushComponent'/Script/Engine.Default__LightmassImportanceVolume:BrushComponent0'
+            Begin Object Class=/Script/Engine.BodySetup Name="RB_BodySetup_0"
+            End Object
+         End Object
+         Begin Brush Name=Model_4
+         End Brush
+         Begin Object Name="BrushComponent0"
+            Begin Object Name="RB_BodySetup_0"
+               AggGeom=(ConvexElems=((VertexData=((X=-2526.589844,Y=2176.593750,Z=-1366.437500),(X=-2526.589844,Y=2176.593750,Z=-453.562500),(X=-2526.589844,Y=-2116.576172,Z=-453.500000),(X=-2526.589844,Y=-2116.576172,Z=-1366.449463),(X=1026.576172,Y=2176.589844,Z=-1366.437500),(X=1026.576172,Y=2176.589844,Z=-453.562500),(X=1026.589844,Y=-2116.576172,Z=-1366.437500),(X=1026.589844,Y=-2116.576172,Z=-453.562500)),IndexData=(0,1,2,0,2,3,4,5,1,4,1,0,6,7,5,6,5,4,3,2,7,3,7,6,5,7,2,5,2,1,6,4,0,6,0,3),ElemBox=(Min=(X=-2526.589844,Y=-2116.576172,Z=-1366.449463),Max=(X=1026.589844,Y=2176.593750,Z=-453.500000),IsValid=1))))
+               bGenerateMirroredCollision=False
+               PhysicsType=PhysType_Kinematic
+               CollisionTraceFlag=CTF_UseSimpleAsComplex
+            End Object
+            Brush=Model'"Model_4"'
+            BrushBodySetup=BodySetup'"RB_BodySetup_0"'
+            RelativeLocation=(X=-0.021845,Y=-0.014160,Z=1625.214355)
+            RelativeRotation=(Pitch=0.001161,Yaw=0.000000,Roll=-0.000000)
+            RelativeScale3D=(X=1.179962,Y=1.000000,Z=1.054176)
+         End Object
+         Begin Brush Name=Model_4
+            Begin PolyList
+               Begin Polygon Flags=3584 Link=0
+                  Origin   -02866.589844,-02866.589844,-02866.449463
+                  Normal   -00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,+00000.044652,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00000.044654
+                  Vertex   -02526.589844,-02116.589844,-01366.449463
+                  Vertex   -02526.589844,-02116.589844,-00453.548340
+                  Vertex   -02526.589844,+02176.589844,-00453.548340
+                  Vertex   -02526.589844,+02176.589844,-01366.449463
+               End Polygon
+               Begin Polygon Flags=3584 Link=1
+                  Origin   -02866.589844,+02866.589844,-02866.449463
+                  Normal   +00000.000000,+00001.000000,+00000.000000
+                  TextureU +00000.044652,-00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00000.044654
+                  Vertex   -02526.589844,+02176.589844,-01366.449463
+                  Vertex   -02526.589844,+02176.589844,-00453.548340
+                  Vertex   +01026.589844,+02176.589844,-00453.548340
+                  Vertex   +01026.589844,+02176.589844,-01366.449463
+               End Polygon
+               Begin Polygon Flags=3584 Link=2
+                  Origin   +02866.589844,+02866.589844,-02866.449463
+                  Normal   +00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,-00000.044652,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00000.044654
+                  Vertex   +01026.589844,+02176.589844,-01366.449463
+                  Vertex   +01026.589844,+02176.589844,-00453.548340
+                  Vertex   +01026.589844,-02116.589844,-00453.548340
+                  Vertex   +01026.589844,-02116.589844,-01366.449463
+               End Polygon
+               Begin Polygon Flags=3584 Link=3
+                  Origin   +02866.589844,-02866.589844,-02866.449463
+                  Normal   +00000.000000,-00001.000000,+00000.000000
+                  TextureU -00000.044652,-00000.000000,-00000.000000
+                  TextureV +00000.000000,+00000.000000,-00000.044654
+                  Vertex   +01026.589844,-02116.589844,-01366.449463
+                  Vertex   +01026.589844,-02116.589844,-00453.548340
+                  Vertex   -02526.589844,-02116.589844,-00453.548340
+                  Vertex   -02526.589844,-02116.589844,-01366.449463
+               End Polygon
+               Begin Polygon Flags=3584 Link=4
+                  Origin   -02866.589844,+02866.589844,+02866.451660
+                  Normal   +00000.000000,+00000.000000,+00001.000000
+                  TextureU +00000.044652,+00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.044652,+00000.000000
+                  Vertex   -02526.589844,+02176.589844,-00453.548340
+                  Vertex   -02526.589844,-02116.589844,-00453.548340
+                  Vertex   +01026.589844,-02116.589844,-00453.548340
+                  Vertex   +01026.589844,+02176.589844,-00453.548340
+               End Polygon
+               Begin Polygon Flags=3584 Link=5
+                  Origin   -02866.589844,-02866.589844,-02866.449463
+                  Normal   +00000.000000,+00000.000000,-00001.000000
+                  TextureU +00000.044652,+00000.000000,+00000.000000
+                  TextureV +00000.000000,-00000.044652,+00000.000000
+                  Vertex   -02526.589844,-02116.589844,-01366.449463
+                  Vertex   -02526.589844,+02176.589844,-01366.449463
+                  Vertex   +01026.589844,+02176.589844,-01366.449463
+                  Vertex   +01026.589844,-02116.589844,-01366.449463
+               End Polygon
+            End PolyList
+         End Brush
+         Brush=Model'"Model_4"'
+         BrushComponent="BrushComponent0"
+         SavedSelections(0)=(Type=1,Index=4,SelectionIndex=6)
+         RootComponent="BrushComponent0"
+         ActorLabel="LightmassImportanceVolume"
+         FolderPath="Lighting"
+      End Actor
+      Begin Actor Class=/Script/Engine.AtmosphericFog Name=AtmosphericFog_1 Archetype=/Script/Engine.AtmosphericFog'/Script/Engine.Default__AtmosphericFog'
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__AtmosphericFog:Sprite'
+         End Object
+         Begin Object Class=/Script/Engine.AtmosphericFogComponent Name="AtmosphericFogComponent0" Archetype=AtmosphericFogComponent'/Script/Engine.Default__AtmosphericFog:AtmosphericFogComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent0" Archetype=ArrowComponent'/Script/Engine.Default__AtmosphericFog:ArrowComponent0'
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="AtmosphericFogComponent0"
+         End Object
+         Begin Object Name="AtmosphericFogComponent0"
+            PrecomputeParams=(InscatterAltitudeSampleNum=32)
+            RelativeLocation=(X=-31.083755,Y=541.017456,Z=1024.099731)
+         End Object
+         Begin Object Name="ArrowComponent0"
+            AttachParent="AtmosphericFogComponent0"
+         End Object
+         AtmosphericFogComponent="AtmosphericFogComponent0"
+         RootComponent="AtmosphericFogComponent0"
+         ActorLabel="AtmosphericFog"
+         FolderPath="RenderFX"
+      End Actor
+      Begin Actor Class=/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C Name=SkySphereBlueprint Archetype=/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C'/Engine/EngineSky/BP_Sky_Sphere.Default__BP_Sky_Sphere_C'
+         Begin Object Class=/Script/Engine.SceneComponent Name="Base" Archetype=SceneComponent'/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:SceneComponent_1'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="SkySphereMesh" Archetype=StaticMeshComponent'/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:SkySphereMesh_GEN_VARIABLE'
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MaterialInstanceDynamic_0"
+            End Object
+         End Object
+         Begin Object Name="Base"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SkySphereMesh"
+            Begin Object Name="MaterialInstanceDynamic_0"
+               Parent=Material'"/Engine/EngineSky/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2"'
+               ScalarParameterValues(0)=(ParameterInfo=(Name="Horizon falloff"),ParameterValue=5.947084)
+               ScalarParameterValues(1)=(ParameterInfo=(Name="Cloud speed"),ParameterValue=2.000000)
+               ScalarParameterValues(2)=(ParameterInfo=(Name="Sun brightness"),ParameterValue=75.000000)
+               ScalarParameterValues(3)=(ParameterInfo=(Name="Sun height"))
+               ScalarParameterValues(4)=(ParameterInfo=(Name="Cloud opacity"),ParameterValue=1.000000)
+               ScalarParameterValues(5)=(ParameterInfo=(Name="Stars brightness"),ParameterValue=0.100000)
+               VectorParameterValues(0)=(ParameterInfo=(Name="Light direction"),ParameterValue=(R=0.398148,G=0.054030,B=-0.915728,A=1.000000))
+               VectorParameterValues(1)=(ParameterInfo=(Name="Sun color"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000))
+               VectorParameterValues(2)=(ParameterInfo=(Name="Horizon color"),ParameterValue=(R=0.460000,G=0.661171,B=1.000000,A=1.000000))
+               VectorParameterValues(3)=(ParameterInfo=(Name="Zenith color"),ParameterValue=(R=0.022800,G=0.048994,B=0.120000,A=1.000000))
+               VectorParameterValues(4)=(ParameterInfo=(Name="Cloud color"),ParameterValue=(R=0.925332,G=0.941417,B=0.992890,A=1.000000))
+               CachedReferencedTextures(0)=Texture2D'"/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M"'
+               CachedReferencedTextures(1)=Texture2D'"/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars"'
+               CachedReferencedTextures(2)=Texture2D'"/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue"'
+               LightingGuid=7244A499466DB20940769FAF469452B2
+            End Object
+            OverrideMaterials(0)=MaterialInstanceDynamic'"MaterialInstanceDynamic_0"'
+            AttachParent="Base"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+            UCSModifiedProperties(0)=(MemberParent=Class'"/Script/Engine.MeshComponent"',MemberName="OverrideMaterials")
+         End Object
+         SkySphereMesh="SkySphereMesh"
+         Base="Base"
+         Sky material=MaterialInstanceDynamic'"SkySphereMesh.MaterialInstanceDynamic_0"'
+         Directional light actor=DirectionalLight'"LightSource_0"'
+         Sun height=0.736771
+         Sun brightness=75.000000
+         Cloud speed=2.000000
+         Cloud opacity=1.000000
+         RootComponent="Base"
+         ActorLabel="SkySphereBlueprint"
+      End Actor
+      Begin Actor Class=/Script/Engine.SphereReflectionCapture Name=SphereReflectionCapture Archetype=/Script/Engine.SphereReflectionCapture'/Script/Engine.Default__SphereReflectionCapture'
+         Begin Object Class=/Script/Engine.SphereReflectionCaptureComponent Name="NewReflectionComponent" Archetype=SphereReflectionCaptureComponent'/Script/Engine.Default__SphereReflectionCapture:NewReflectionComponent'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__SphereReflectionCapture:Sprite'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="CaptureOffset" Archetype=BillboardComponent'/Script/Engine.Default__SphereReflectionCapture:CaptureOffset'
+         End Object
+         Begin Object Class=/Script/Engine.DrawSphereComponent Name="DrawRadius0" Archetype=DrawSphereComponent'/Script/Engine.Default__SphereReflectionCapture:DrawRadius0'
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0" Archetype=BodySetup'/Script/Engine.Default__SphereReflectionCapture:DrawRadius0.BodySetup_0'
+            End Object
+         End Object
+         Begin Object Class=/Script/Engine.DrawSphereComponent Name="DrawRadius1" Archetype=DrawSphereComponent'/Script/Engine.Default__SphereReflectionCapture:DrawRadius1'
+         End Object
+         Begin Object Name="NewReflectionComponent"
+            PreviewInfluenceRadius="DrawRadius0"
+            MapBuildDataId=3884DE244CA9D1E5320A11B1C608A293
+            RelativeLocation=(X=-16.000000,Y=-80.000000,Z=512.000000)
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="NewReflectionComponent"
+         End Object
+         Begin Object Name="CaptureOffset"
+            AttachParent="NewReflectionComponent"
+         End Object
+         Begin Object Name="DrawRadius0"
+            Begin Object Name="BodySetup_0"
+               AggGeom=(SphereElems=((Radius=3000.000000)))
+            End Object
+            SphereRadius=3000.000000
+            AreaClass=Class'"/Script/NavigationSystem.NavArea_Obstacle"'
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="NewReflectionComponent"
+         End Object
+         Begin Object Name="DrawRadius1"
+            AreaClass=Class'"/Script/NavigationSystem.NavArea_Obstacle"'
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="NewReflectionComponent"
+         End Object
+         DrawCaptureRadius="DrawRadius1"
+         CaptureComponent="NewReflectionComponent"
+         RootComponent="NewReflectionComponent"
+         ActorLabel="SphereReflectionCapture"
+         FolderPath="RenderFX"
+      End Actor
+      Begin Actor Class=/Script/Engine.PlayerStart Name=NetworkPlayerStart Archetype=/Script/Engine.PlayerStart'/Script/Engine.Default__PlayerStart'
+         Begin Object Class=/Script/Engine.CapsuleComponent Name="CollisionCapsule" Archetype=CapsuleComponent'/Script/Engine.Default__PlayerStart:CollisionCapsule'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite2" Archetype=BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite2'
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="Arrow" Archetype=ArrowComponent'/Script/Engine.Default__PlayerStart:Arrow'
+         End Object
+         Begin Object Name="CollisionCapsule"
+            AreaClass=Class'"/Script/NavigationSystem.NavArea_Obstacle"'
+            RelativeLocation=(X=-970.000000,Y=-346.443420,Z=202.000671)
+            RelativeScale3D=(X=-0.250000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="CollisionCapsule"
+            bVisible=False
+         End Object
+         Begin Object Name="Sprite2"
+            AttachParent="CollisionCapsule"
+            bVisible=True
+         End Object
+         Begin Object Name="Arrow"
+            AttachParent="CollisionCapsule"
+         End Object
+         CapsuleComponent="CollisionCapsule"
+         GoodSprite="Sprite"
+         BadSprite="Sprite2"
+         RootComponent="CollisionCapsule"
+         ActorLabel="NetworkPlayerStart"
+      End Actor
+      Begin Actor Class=/Script/Engine.DocumentationActor Name=DocumentationActor1 Archetype=/Script/Engine.DocumentationActor'/Script/Engine.Default__DocumentationActor'
+         Begin Object Class=/Script/Engine.SceneComponent Name="SceneComp" Archetype=SceneComponent'/Script/Engine.Default__DocumentationActor:SceneComp'
+         End Object
+         Begin Object Class=/Script/Engine.MaterialBillboardComponent Name="BillboardComponent" Archetype=MaterialBillboardComponent'/Script/Engine.Default__DocumentationActor:BillboardComponent'
+         End Object
+         Begin Object Name="SceneComp"
+            RelativeLocation=(X=-400.000000,Y=50.000000,Z=190.000000)
+            RelativeScale3D=(X=19.750000,Y=38.250000,Z=19.750000)
+         End Object
+         Begin Object Name="BillboardComponent"
+            AttachParent="SceneComp"
+         End Object
+         DocumentLink="https://www.youtube.com/playlist?list=PLZlv_N0_O1gZS5HylO_368myr-Kg2ZLwb"
+         RootComponent="SceneComp"
+         ActorLabel="DocumentationActor1"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Linear_Stair_StaticMesh Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=128
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_545C07034C4CD50D46BBB1AB02DFBF8A0100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=1
+            BodyInstance=(MassInKgOverride=0.000000)
+            RelativeLocation=(X=-390.000000,Y=280.000000,Z=125.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Linear_Stair_StaticMesh"
+         FolderPath="ArenaGeometry/Walkway"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Bump_StaticMesh Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=128
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_697EB2434881CB66BE279F8F85092C710100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=2
+            BodyInstance=(MassInKgOverride=0.000000)
+            RelativeLocation=(X=169.000000,Y=-40.000000,Z=94.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Bump_StaticMesh"
+         FolderPath="ArenaGeometry/Walkway"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=LeftArm_StaticMesh Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=128
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_88BEF481456F1476C2BCF9B20C8494C80100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=3
+            BodyInstance=(MassInKgOverride=0.000000)
+            RelativeLocation=(X=-90.000000,Y=-40.000000,Z=105.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LeftArm_StaticMesh"
+         FolderPath="ArenaGeometry/Walkway"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=RightArm_StaticMesh Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=128
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_C29A165749F1EE892A500698A08FB7230100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=4
+            BodyInstance=(MassInKgOverride=0.000000)
+            RelativeLocation=(X=-90.000000,Y=210.000000,Z=105.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="RightArm_StaticMesh"
+         FolderPath="ArenaGeometry/Walkway"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Ramp_StaticMesh Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=128
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_EE38A87A4F8836BEAD83E2B169546E8D0100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=5
+            BodyInstance=(MassInKgOverride=0.000000)
+            RelativeLocation=(X=-90.000000,Y=-310.000000,Z=105.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ramp_StaticMesh"
+         FolderPath="ArenaGeometry/Walkway"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=CubeMesh_5 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer"'
+            bOverrideLightMapRes=True
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_B1FE2B8D43DD89DB08E85E83598A67830000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            BodyInstance=(MassInKgOverride=679.841370)
+            RelativeLocation=(X=-290.000000,Y=-610.000000,Z=202.280518)
+            RelativeRotation=(Pitch=-9.846036,Yaw=28.480972,Roll=17.496771)
+            RelativeScale3D=(X=2.000000,Y=1.500000,Z=1.500000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CubeMesh"
+      End Actor
+      Begin Actor Class=/Script/Engine.DirectionalLight Name=LightSource_0 Archetype=/Script/Engine.DirectionalLight'/Script/Engine.Default__DirectionalLight'
+         Begin Object Class=/Script/Engine.DirectionalLightComponent Name="LightComponent0" Archetype=DirectionalLightComponent'/Script/Engine.Default__DirectionalLight:LightComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.ArrowComponent Name="ArrowComponent0" Archetype=ArrowComponent'/Script/Engine.Default__DirectionalLight:ArrowComponent0'
+         End Object
+         Begin Object Name="LightComponent0"
+            bUsedAsAtmosphereSunLight=True
+            bCastModulatedShadows=True
+            LightGuid=4BE7F0B34F488EDC3ED8D1BC32457632
+            Intensity=2.750000
+            RelativeLocation=(X=100.000000,Y=-200.000000,Z=570.000000)
+            RelativeRotation=(Pitch=-66.309387,Yaw=7.728075,Roll=-6.482239)
+         End Object
+         Begin Object Name="ArrowComponent0"
+            ArrowColor=(B=255,G=255,R=255,A=255)
+            AttachParent="LightComponent0"
+         End Object
+         ArrowComponent="ArrowComponent0"
+         DirectionalLightComponent="LightComponent0"
+         LightComponent="LightComponent0"
+         RootComponent="LightComponent0"
+         ActorLabel="Light Source"
+         FolderPath="Lighting"
+      End Actor
+      Begin Actor Class=/Script/Engine.PostProcessVolume Name=PostProcessVolume_0 Archetype=/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume'
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype=BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0'
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_4"
+            End Object
+         End Object
+         Begin Object Class=/Script/UnrealEd.CubeBuilder Name="CubeBuilder_6"
+         End Object
+         Begin Brush Name=Model_8
+         End Brush
+         Begin Object Name="BrushComponent0"
+            Begin Object Name="BodySetup_4"
+               AggGeom=(ConvexElems=((VertexData=((X=-100.000000,Y=100.000000,Z=-100.000000),(X=-100.000000,Y=100.000000,Z=100.000000),(X=-100.000000,Y=-100.000000,Z=100.000000),(X=-100.000000,Y=-100.000000,Z=-100.000000),(X=100.000000,Y=100.000000,Z=-100.000000),(X=100.000000,Y=100.000000,Z=100.000000),(X=100.000000,Y=-100.000000,Z=-100.000000),(X=100.000000,Y=-100.000000,Z=100.000000)),IndexData=(0,1,2,0,2,3,4,5,1,4,1,0,6,7,5,6,5,4,3,2,7,3,7,6,5,7,2,5,2,1,6,4,0,6,0,3),ElemBox=(Min=(X=-100.000000,Y=-100.000000,Z=-100.000000),Max=(X=100.000000,Y=100.000000,Z=100.000000),IsValid=1))))
+               bGenerateMirroredCollision=False
+               CollisionTraceFlag=CTF_UseSimpleAsComplex
+            End Object
+            Brush=Model'"Model_8"'
+            BrushBodySetup=BodySetup'"BodySetup_4"'
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-926.168701,Y=6.159666,Z=660.000000)
+            RelativeScale3D=(X=24.250000,Y=24.000000,Z=6.750000)
+         End Object
+         Begin Object Name="CubeBuilder_6"
+            Vertices(0)=(X=-100.000000,Y=-100.000000,Z=-100.000000)
+            Vertices(1)=(X=-100.000000,Y=-100.000000,Z=100.000000)
+            Vertices(2)=(X=-100.000000,Y=100.000000,Z=-100.000000)
+            Vertices(3)=(X=-100.000000,Y=100.000000,Z=100.000000)
+            Vertices(4)=(X=100.000000,Y=-100.000000,Z=-100.000000)
+            Vertices(5)=(X=100.000000,Y=-100.000000,Z=100.000000)
+            Vertices(6)=(X=100.000000,Y=100.000000,Z=-100.000000)
+            Vertices(7)=(X=100.000000,Y=100.000000,Z=100.000000)
+            Polys(0)=(VertexIndices=(0,1,3,2),Direction=1)
+            Polys(1)=(VertexIndices=(2,3,7,6),Direction=1)
+            Polys(2)=(VertexIndices=(6,7,5,4),Direction=1)
+            Polys(3)=(VertexIndices=(4,5,1,0),Direction=1)
+            Polys(4)=(VertexIndices=(3,1,5,7),Direction=1)
+            Polys(5)=(VertexIndices=(0,2,6,4),Direction=1)
+            Layer="Cube"
+         End Object
+         Settings=(bOverride_AutoExposureMinBrightness=True,bOverride_AutoExposureMaxBrightness=True,bOverride_AutoExposureBias=True,AutoExposureBias=0.000000,AutoExposureBiasBackup=1.000000,bOverride_AutoExposureBiasBackup=True,AutoExposureMinBrightness=1.000000,AutoExposureMaxBrightness=1.000000)
+         bUnbound=True
+         BrushType=Brush_Add
+         Begin Brush Name=Model_8
+            Begin PolyList
+               Begin Polygon Link=0
+                  Origin   -00100.000000,-00100.000000,-00100.000000
+                  Normal   -00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,+00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon Link=1
+                  Origin   -00100.000000,+00100.000000,-00100.000000
+                  Normal   +00000.000000,+00001.000000,+00000.000000
+                  TextureU +00001.000000,-00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon Link=2
+                  Origin   +00100.000000,+00100.000000,-00100.000000
+                  Normal   +00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,-00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon Link=3
+                  Origin   +00100.000000,-00100.000000,-00100.000000
+                  Normal   +00000.000000,-00001.000000,+00000.000000
+                  TextureU -00001.000000,-00000.000000,-00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon Link=4
+                  Origin   -00100.000000,+00100.000000,+00100.000000
+                  Normal   +00000.000000,+00000.000000,+00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,+00001.000000,+00000.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+               End Polygon
+               Begin Polygon Link=5
+                  Origin   -00100.000000,-00100.000000,-00100.000000
+                  Normal   +00000.000000,+00000.000000,-00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,-00001.000000,+00000.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+               End Polygon
+            End PolyList
+         End Brush
+         Brush=Model'"Model_8"'
+         BrushComponent="BrushComponent0"
+         BrushBuilder=CubeBuilder'"CubeBuilder_6"'
+         bHidden=False
+         RootComponent="BrushComponent0"
+         ActorLabel="PostProcessVolume"
+         FolderPath="Lighting"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkyLight Name=SkyLight_0 Archetype=/Script/Engine.SkyLight'/Script/Engine.Default__SkyLight'
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__SkyLight:Sprite'
+         End Object
+         Begin Object Class=/Script/Engine.SkyLightComponent Name="SkyLightComponent0" Archetype=SkyLightComponent'/Script/Engine.Default__SkyLight:SkyLightComponent0'
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="SkyLightComponent0"
+         End Object
+         Begin Object Name="SkyLightComponent0"
+            LightGuid=0676CEC042895FBBAFB8C79171742C25
+            RelativeLocation=(X=30.162476,Y=7.713703,Z=20.000061)
+         End Object
+         LightComponent="SkyLightComponent0"
+         RootComponent="SkyLightComponent0"
+         ActorLabel="SkyLight"
+         FolderPath="Lighting"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Floor_1 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/Geometry/Meshes/TemplateFloor.TemplateFloor"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=512
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=7
+            BodyInstance=(MassInKgOverride=49142.179688)
+            RelativeLocation=(X=-399.751465,Y=0.000000,Z=130.277084)
+            RelativeRotation=(Pitch=0.001544,Yaw=0.000000,Roll=-0.000000)
+            RelativeScale3D=(X=0.750000,Y=0.750000,Z=1.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Floor"
+         FolderPath="ArenaGeometry/Arena"
+         OnEndPlay=(ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_Floor_1_K2Node_ActorBoundEvent_0_ActorEndPlaySignature__DelegateSignature)
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Wall7_4 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/Geometry/Meshes/1M_Cube.1M_Cube"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=256
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=8
+            BodyInstance=(MassInKgOverride=3833.658691)
+            RelativeLocation=(X=1075.334351,Y=0.016339,Z=530.234497)
+            RelativeRotation=(Pitch=0.001537,Yaw=-90.000000,Roll=-0.000000)
+            RelativeScale3D=(X=30.000000,Y=0.500000,Z=8.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=49.999638,Y=0.000000,Z=-50.000931)
+         ActorLabel="Wall7"
+         FolderPath="ArenaGeometry/Arena"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Wall9 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/Geometry/Meshes/1M_Cube.1M_Cube"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=256
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=9
+            BodyInstance=(MassInKgOverride=3833.658691)
+            RelativeLocation=(X=-1874.665649,Y=0.016339,Z=530.234497)
+            RelativeRotation=(Pitch=0.001537,Yaw=-90.000000,Roll=-0.000000)
+            RelativeScale3D=(X=30.000000,Y=0.500000,Z=8.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=49.999638,Y=0.000000,Z=-50.000931)
+         ActorLabel="Wall9"
+         FolderPath="ArenaGeometry/Arena"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Wall10 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/Geometry/Meshes/1M_Cube.1M_Cube"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=256
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=10
+            BodyInstance=(MassInKgOverride=3833.658691)
+            RelativeLocation=(X=-399.666016,Y=-1474.986938,Z=530.234497)
+            RelativeRotation=(Pitch=0.001537,Yaw=0.000174,Roll=0.000000)
+            RelativeScale3D=(X=29.000000,Y=0.500000,Z=8.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=49.999638,Y=0.000000,Z=-50.000931)
+         ActorLabel="Wall10"
+         FolderPath="ArenaGeometry/Arena"
+      End Actor
+      Begin Actor Class=/Script/Engine.StaticMeshActor Name=Wall11 Archetype=/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            StaticMesh=StaticMesh'"/Game/Geometry/Meshes/1M_Cube.1M_Cube"'
+            bOverrideLightMapRes=True
+            OverriddenLightMapRes=256
+            StaticMeshDerivedDataKey="STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+            OverrideMaterials(0)=None
+            VisibilityId=11
+            BodyInstance=(MassInKgOverride=3833.658691)
+            RelativeLocation=(X=-399.666016,Y=1475.013062,Z=530.234497)
+            RelativeRotation=(Pitch=0.001537,Yaw=0.000174,Roll=0.000000)
+            RelativeScale3D=(X=29.000000,Y=0.500000,Z=8.000000)
+            CustomProperties
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=49.999638,Y=0.000000,Z=-50.000931)
+         ActorLabel="Wall11"
+         FolderPath="ArenaGeometry/Arena"
+      End Actor
+      Begin Actor Class=/Script/Engine.TextRenderActor Name=TextRenderActor_1 Archetype=/Script/Engine.TextRenderActor'/Script/Engine.Default__TextRenderActor'
+         Begin Object Class=/Script/Engine.TextRenderComponent Name="NewTextRenderComponent" Archetype=TextRenderComponent'/Script/Engine.Default__TextRenderActor:NewTextRenderComponent'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__TextRenderActor:Sprite'
+         End Object
+         Begin Object Name="NewTextRenderComponent"
+            Text=NSLOCTEXT("[67872BA74C48E42AB1833F81618ECB5A]", "2295A5CE4C86A968A4F8909861C06D94", "Third Person")
+            HorizontalAlignment=EHTA_Center
+            VerticalAlignment=EVRTA_TextCenter
+            TextRenderColor=(B=145,G=86,R=0,A=255)
+            WorldSize=160.000000
+            RelativeLocation=(X=-480.000061,Y=0.000000,Z=130.846405)
+            RelativeRotation=(Pitch=90.000000,Yaw=0.000000,Roll=-179.999756)
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="NewTextRenderComponent"
+         End Object
+         TextRender="NewTextRenderComponent"
+         RootComponent="NewTextRenderComponent"
+         ActorLabel="TextRenderActor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin_0 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-250.000000,Y=-180.000000,Z=130.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin2_1 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-1275.970947,Y=150.174347,Z=139.577408)
+            RelativeRotation=(Pitch=0.000000,Yaw=-19.200562,Roll=0.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin2"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin3_2 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            bGenerateOverlapEvents=True
+            RelativeLocation=(X=-650.000000,Y=-40.000000,Z=130.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin3"
+         FolderPath="Actor"
+         OnActorBeginOverlap=(ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_SK_Mannequin3_2_K2Node_ActorBoundEvent_3_ActorBeginOverlapSignature__DelegateSignature)
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin4_3 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-288.855225,Y=-70.531952,Z=150.653030)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin4"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin5_4 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-250.000000,Y=600.000000,Z=160.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin5"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin6_5 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-250.000000,Y=190.000000,Z=130.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin6"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin7_6 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-694.882568,Y=-431.113434,Z=139.570816)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin7"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.SkeletalMeshActor Name=SK_Mannequin8_7 Archetype=/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="SkeletalMeshComponent0" Archetype=SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
+            Begin Object Class=/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Name="ThirdPerson_AnimBP_C_0"
+            End Object
+         End Object
+         Begin Object Name="SkeletalMeshComponent0"
+            Begin Object Name="ThirdPerson_AnimBP_C_0"
+               AnimGraphNode_BlendSpacePlayer=()
+            End Object
+            AnimClass=AnimBlueprintGeneratedClass'"/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C"'
+            AnimationData=(AnimToPlay=AnimSequence'"/Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump"')
+            bDisablePostProcessBlueprint=True
+            ClothingSimulationFactory=Class'"/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv"'
+            SkeletalMesh=SkeletalMesh'"/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin"'
+            VisibilityBasedAnimTickOption=OnlyTickPoseWhenRendered
+            bEnableUpdateRateOptimizations=True
+            RelativeLocation=(X=-250.000000,Y=90.000000,Z=130.000000)
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+         End Object
+         SkeletalMeshComponent="SkeletalMeshComponent0"
+         RootComponent="SkeletalMeshComponent0"
+         ActorLabel="SK_Mannequin8"
+         FolderPath="Actor"
+      End Actor
+      Begin Actor Class=/Script/Engine.TriggerBox Name=TriggerBox_1 Archetype=/Script/Engine.TriggerBox'/Script/Engine.Default__TriggerBox'
+         Begin Object Class=/Script/Engine.BoxComponent Name="CollisionComp" Archetype=BoxComponent'/Script/Engine.Default__TriggerBox:CollisionComp'
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0" Archetype=BodySetup'/Script/Engine.Default__TriggerBox:CollisionComp.BodySetup_0'
+            End Object
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__TriggerBox:Sprite'
+         End Object
+         Begin Object Name="CollisionComp"
+            Begin Object Name="BodySetup_0"
+               AggGeom=(BoxElems=((X=89.548065,Y=80.000000,Z=80.000000)))
+            End Object
+            BoxExtent=(X=44.774033,Y=40.000000,Z=40.000000)
+            AreaClass=Class'"/Script/NavigationSystem.NavArea_Obstacle"'
+            RelativeLocation=(X=-890.000000,Y=-420.000000,Z=180.000000)
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="CollisionComp"
+         End Object
+         CollisionComponent="CollisionComp"
+         RootComponent="CollisionComp"
+         ActorLabel="TriggerBox"
+         OnActorHit=(ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_TriggerBox_1_K2Node_ActorBoundEvent_1_ActorHitSignature__DelegateSignature)
+      End Actor
+      Begin Actor Class=/Script/Engine.TriggerSphere Name=TriggerSphere_1 Archetype=/Script/Engine.TriggerSphere'/Script/Engine.Default__TriggerSphere'
+         Begin Object Class=/Script/Engine.SphereComponent Name="CollisionComp" Archetype=SphereComponent'/Script/Engine.Default__TriggerSphere:CollisionComp'
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__TriggerSphere:Sprite'
+         End Object
+         Begin Object Name="CollisionComp"
+            AreaClass=Class'"/Script/NavigationSystem.NavArea_Obstacle"'
+            RelativeLocation=(X=-840.000000,Y=-280.000000,Z=170.000000)
+         End Object
+         Begin Object Name="Sprite"
+            AttachParent="CollisionComp"
+         End Object
+         CollisionComponent="CollisionComp"
+         RootComponent="CollisionComp"
+         ActorLabel="TriggerSphere"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+Begin FolderList
+    Folder=Actor
+    Folder=ArenaGeometry
+    Folder=ArenaGeometry/Arena
+    Folder=ArenaGeometry/Walkway
+    Folder=Lighting
+    Folder=RenderFX
+End FolderList
