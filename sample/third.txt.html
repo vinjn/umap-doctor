@@ -2,6 +2,7 @@
     <meta charset="utf-8" emacsmode="-*- markdown -*-">
     <link rel="stylesheet" href="https://taptap.github.io/render-doctor/src/company-api.css?"">
     <script src="https://casual-effects.com/markdeep/markdeep.min.js?" charset="utf-8"></script>
+    <script>markdeepOptions={tocStyle:'long'};</script>
     <style>
     .md h1 {
         color: #ff6600;  
@@ -15,12 +16,14 @@
 - Archetype: /Script/Engine.LightmassImportanceVolume'/Script/Engine.Default__LightmassImportanceVolume'
 - Brush: Model'Model_4'
 - BrushComponent: BrushComponent0
-## BrushComponent0
+**BrushComponent0**
+
 - Class: /Script/Engine.BrushComponent
 - Archetype: BrushComponent'/Script/Engine.Default__LightmassImportanceVolume:BrushComponent0'
 - Brush: Model'Model_4'
 - BrushBodySetup: BodySetup'RB_BodySetup_0'
-### RB_BodySetup_0
+*RB_BodySetup_0*
+
 - Class: /Script/Engine.BodySetup
 - bGenerateMirroredCollision: False
 - PhysicsType: PhysType_Kinematic
@@ -29,13 +32,16 @@
 - Class: /Script/Engine.AtmosphericFog
 - Archetype: /Script/Engine.AtmosphericFog'/Script/Engine.Default__AtmosphericFog'
 - AtmosphericFogComponent: AtmosphericFogComponent0
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__AtmosphericFog:Sprite'
-## AtmosphericFogComponent0
+**AtmosphericFogComponent0**
+
 - Class: /Script/Engine.AtmosphericFogComponent
 - Archetype: AtmosphericFogComponent'/Script/Engine.Default__AtmosphericFog:AtmosphericFogComponent0'
-## ArrowComponent0
+**ArrowComponent0**
+
 - Class: /Script/Engine.ArrowComponent
 - Archetype: ArrowComponent'/Script/Engine.Default__AtmosphericFog:ArrowComponent0'
 # SkySphereBlueprint
@@ -49,14 +55,17 @@
 - Sun brightness: 75.000000
 - Cloud speed: 2.000000
 - Cloud opacity: 1.000000
-## Base
+**Base**
+
 - Class: /Script/Engine.SceneComponent
 - Archetype: SceneComponent'/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:SceneComponent_1'
-## SkySphereMesh
+**SkySphereMesh**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:SkySphereMesh_GEN_VARIABLE'
 - OverrideMaterials(0): MaterialInstanceDynamic'MaterialInstanceDynamic_0'
-### MaterialInstanceDynamic_0
+*MaterialInstanceDynamic_0*
+
 - Class: /Script/Engine.MaterialInstanceDynamic
 - CachedReferencedTextures(0): Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'
 - CachedReferencedTextures(1): Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'
@@ -67,26 +76,32 @@
 - Archetype: /Script/Engine.SphereReflectionCapture'/Script/Engine.Default__SphereReflectionCapture'
 - DrawCaptureRadius: DrawRadius1
 - CaptureComponent: NewReflectionComponent
-## NewReflectionComponent
+**NewReflectionComponent**
+
 - Class: /Script/Engine.SphereReflectionCaptureComponent
 - Archetype: SphereReflectionCaptureComponent'/Script/Engine.Default__SphereReflectionCapture:NewReflectionComponent'
 - PreviewInfluenceRadius: DrawRadius0
 - MapBuildDataId: 3884DE244CA9D1E5320A11B1C608A293
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__SphereReflectionCapture:Sprite'
-## CaptureOffset
+**CaptureOffset**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__SphereReflectionCapture:CaptureOffset'
-## DrawRadius0
+**DrawRadius0**
+
 - Class: /Script/Engine.DrawSphereComponent
 - Archetype: DrawSphereComponent'/Script/Engine.Default__SphereReflectionCapture:DrawRadius0'
 - SphereRadius: 3000.000000
 - AreaClass: Class'/Script/NavigationSystem.NavArea_Obstacle'
-### BodySetup_0
+*BodySetup_0*
+
 - Class: /Script/Engine.BodySetup
 - Archetype: BodySetup'/Script/Engine.Default__SphereReflectionCapture:DrawRadius0.BodySetup_0'
-## DrawRadius1
+**DrawRadius1**
+
 - Class: /Script/Engine.DrawSphereComponent
 - Archetype: DrawSphereComponent'/Script/Engine.Default__SphereReflectionCapture:DrawRadius1'
 - AreaClass: Class'/Script/NavigationSystem.NavArea_Obstacle'
@@ -96,35 +111,42 @@
 - CapsuleComponent: CollisionCapsule
 - GoodSprite: Sprite
 - BadSprite: Sprite2
-## CollisionCapsule
+**CollisionCapsule**
+
 - Class: /Script/Engine.CapsuleComponent
 - Archetype: CapsuleComponent'/Script/Engine.Default__PlayerStart:CollisionCapsule'
 - AreaClass: Class'/Script/NavigationSystem.NavArea_Obstacle'
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite'
 - bVisible: False
-## Sprite2
+**Sprite2**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite2'
 - bVisible: True
-## Arrow
+**Arrow**
+
 - Class: /Script/Engine.ArrowComponent
 - Archetype: ArrowComponent'/Script/Engine.Default__PlayerStart:Arrow'
 # DocumentationActor1
 - Class: /Script/Engine.DocumentationActor
 - Archetype: /Script/Engine.DocumentationActor'/Script/Engine.Default__DocumentationActor'
-## SceneComp
+**SceneComp**
+
 - Class: /Script/Engine.SceneComponent
 - Archetype: SceneComponent'/Script/Engine.Default__DocumentationActor:SceneComp'
-## BillboardComponent
+**BillboardComponent**
+
 - Class: /Script/Engine.MaterialBillboardComponent
 - Archetype: MaterialBillboardComponent'/Script/Engine.Default__DocumentationActor:BillboardComponent'
 # Linear_Stair_StaticMesh
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh'
@@ -136,7 +158,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh'
@@ -148,7 +171,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh'
@@ -160,7 +184,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh'
@@ -172,7 +197,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh'
@@ -184,7 +210,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer'
@@ -195,14 +222,16 @@
 - ArrowComponent: ArrowComponent0
 - DirectionalLightComponent: LightComponent0
 - LightComponent: LightComponent0
-## LightComponent0
+**LightComponent0**
+
 - Class: /Script/Engine.DirectionalLightComponent
 - Archetype: DirectionalLightComponent'/Script/Engine.Default__DirectionalLight:LightComponent0'
 - bUsedAsAtmosphereSunLight: True
 - bCastModulatedShadows: True
 - LightGuid: 4BE7F0B34F488EDC3ED8D1BC32457632
 - Intensity: 2.750000
-## ArrowComponent0
+**ArrowComponent0**
+
 - Class: /Script/Engine.ArrowComponent
 - Archetype: ArrowComponent'/Script/Engine.Default__DirectionalLight:ArrowComponent0'
 # PostProcessVolume
@@ -214,26 +243,31 @@
 - BrushComponent: BrushComponent0
 - BrushBuilder: CubeBuilder'CubeBuilder_6'
 - bHidden: False
-## BrushComponent0
+**BrushComponent0**
+
 - Class: /Script/Engine.BrushComponent
 - Archetype: BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0'
 - Brush: Model'Model_8'
 - BrushBodySetup: BodySetup'BodySetup_4'
-### BodySetup_4
+*BodySetup_4*
+
 - Class: /Script/Engine.BodySetup
 - bGenerateMirroredCollision: False
 - CollisionTraceFlag: CTF_UseSimpleAsComplex
-## CubeBuilder_6
+**CubeBuilder_6**
+
 - Class: /Script/UnrealEd.CubeBuilder
 - Layer: Cube
 # SkyLight
 - Class: /Script/Engine.SkyLight
 - Archetype: /Script/Engine.SkyLight'/Script/Engine.Default__SkyLight'
 - LightComponent: SkyLightComponent0
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__SkyLight:Sprite'
-## SkyLightComponent0
+**SkyLightComponent0**
+
 - Class: /Script/Engine.SkyLightComponent
 - Archetype: SkyLightComponent'/Script/Engine.Default__SkyLight:SkyLightComponent0'
 - LightGuid: 0676CEC042895FBBAFB8C79171742C25
@@ -242,7 +276,8 @@
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
 - OnEndPlay: (ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_Floor_1_K2Node_ActorBoundEvent_0_ActorEndPlaySignature__DelegateSignature)
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/Geometry/Meshes/TemplateFloor.TemplateFloor'
@@ -254,7 +289,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'
@@ -266,7 +302,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'
@@ -278,7 +315,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'
@@ -290,7 +328,8 @@
 - Class: /Script/Engine.StaticMeshActor
 - Archetype: /Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'
 - StaticMeshComponent: StaticMeshComponent0
-## StaticMeshComponent0
+**StaticMeshComponent0**
+
 - Class: /Script/Engine.StaticMeshComponent
 - Archetype: StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'
 - StaticMesh: StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'
@@ -302,21 +341,24 @@
 - Class: /Script/Engine.TextRenderActor
 - Archetype: /Script/Engine.TextRenderActor'/Script/Engine.Default__TextRenderActor'
 - TextRender: NewTextRenderComponent
-## NewTextRenderComponent
+**NewTextRenderComponent**
+
 - Class: /Script/Engine.TextRenderComponent
 - Archetype: TextRenderComponent'/Script/Engine.Default__TextRenderActor:NewTextRenderComponent'
 - Text: NSLOCTEXT([67872BA74C48E42AB1833F81618ECB5A], 2295A5CE4C86A968A4F8909861C06D94, Third Person)
 - HorizontalAlignment: EHTA_Center
 - VerticalAlignment: EVRTA_TextCenter
 - WorldSize: 160.000000
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__TextRenderActor:Sprite'
 # SK_Mannequin
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -325,14 +367,16 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin2
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -341,7 +385,8 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin3
@@ -349,7 +394,8 @@
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
 - OnActorBeginOverlap: (ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_SK_Mannequin3_2_K2Node_ActorBoundEvent_3_ActorBeginOverlapSignature__DelegateSignature)
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -359,14 +405,16 @@
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
 - bGenerateOverlapEvents: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin4
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -375,14 +423,16 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin5
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -391,14 +441,16 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin6
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -407,14 +459,16 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin7
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -423,14 +477,16 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # SK_Mannequin8
 - Class: /Script/Engine.SkeletalMeshActor
 - Archetype: /Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'
 - SkeletalMeshComponent: SkeletalMeshComponent0
-## SkeletalMeshComponent0
+**SkeletalMeshComponent0**
+
 - Class: /Script/Engine.SkeletalMeshComponent
 - Archetype: SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'
 - AnimClass: AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'
@@ -439,7 +495,8 @@
 - SkeletalMesh: SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'
 - VisibilityBasedAnimTickOption: OnlyTickPoseWhenRendered
 - bEnableUpdateRateOptimizations: True
-### ThirdPerson_AnimBP_C_0
+*ThirdPerson_AnimBP_C_0*
+
 - Class: /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C
 - AnimGraphNode_BlendSpacePlayer: ()
 # TriggerBox
@@ -447,24 +504,29 @@
 - Archetype: /Script/Engine.TriggerBox'/Script/Engine.Default__TriggerBox'
 - CollisionComponent: CollisionComp
 - OnActorHit: (ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_TriggerBox_1_K2Node_ActorBoundEvent_1_ActorHitSignature__DelegateSignature)
-## CollisionComp
+**CollisionComp**
+
 - Class: /Script/Engine.BoxComponent
 - Archetype: BoxComponent'/Script/Engine.Default__TriggerBox:CollisionComp'
 - AreaClass: Class'/Script/NavigationSystem.NavArea_Obstacle'
-### BodySetup_0
+*BodySetup_0*
+
 - Class: /Script/Engine.BodySetup
 - Archetype: BodySetup'/Script/Engine.Default__TriggerBox:CollisionComp.BodySetup_0'
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__TriggerBox:Sprite'
 # TriggerSphere
 - Class: /Script/Engine.TriggerSphere
 - Archetype: /Script/Engine.TriggerSphere'/Script/Engine.Default__TriggerSphere'
 - CollisionComponent: CollisionComp
-## CollisionComp
+**CollisionComp**
+
 - Class: /Script/Engine.SphereComponent
 - Archetype: SphereComponent'/Script/Engine.Default__TriggerSphere:CollisionComp'
 - AreaClass: Class'/Script/NavigationSystem.NavArea_Obstacle'
-## Sprite
+**Sprite**
+
 - Class: /Script/Engine.BillboardComponent
 - Archetype: BillboardComponent'/Script/Engine.Default__TriggerSphere:Sprite'

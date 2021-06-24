@@ -92,8 +92,14 @@ ingore_list = [
 
 def process_node(node, markdown, level = 1):
     if node['Type'] == 'Brush': return
-    # if level > 4: return
-    markdown.write('%s %s\n' % ('#' * level, get_node_name(node)))
+    if level == 1:
+        # To keep the side bar clean
+        markdown.write('%s %s\n' % ('#' * level, get_node_name(node)))
+    elif level == 2:
+        markdown.write('**%s**\n\n' % (get_node_name(node)))
+    elif level == 3:
+        markdown.write('*%s*\n\n' % (get_node_name(node)))
+
     clazz = node['Class']
     if 'Landscape' in clazz or 'Occluder' in clazz:
         markdown.write('- Class: %s\n' % (clazz))
@@ -115,6 +121,7 @@ def generate_report(root):
     <meta charset="utf-8" emacsmode="-*- markdown -*-">
     <link rel="stylesheet" href="https://taptap.github.io/render-doctor/src/company-api.css?"">
     <script src="https://casual-effects.com/markdeep/markdeep.min.js?" charset="utf-8"></script>
+    <script>markdeepOptions={tocStyle:'long'};</script>
     <style>
     .md h1 {
         color: #ff6600;  
