@@ -55,9 +55,8 @@ def read_umap(filename):
                 if len(splits) == 2:
                     k = splits[0]
                     v = splits[1]
-                    if 'INVTEXT' in v:
-                        a = 0
-                    current[k] = v
+                    if k != v:
+                        current[k] = v
 
     for item in flat_items:
         del item['Host']
@@ -88,11 +87,12 @@ ingore_list = [
     'CreationMethod',
     'StaticMeshImportVersion',
     'ActorLabel',
+    'LightingGuid',
 ]
 
 def process_node(node, markdown, level = 1):
     if node['Type'] == 'Brush': return
-    if level == 1:
+    elif level == 1:
         # To keep the side bar clean
         markdown.write('%s %s\n' % ('#' * level, get_node_name(node)))
     elif level == 2:
@@ -101,7 +101,7 @@ def process_node(node, markdown, level = 1):
         markdown.write('*%s*\n\n' % (get_node_name(node)))
 
     clazz = node['Class']
-    if 'Landscape' in clazz or 'Occluder' in clazz:
+    if 'Landscape' in clazz or 'Occluder' in clazz or 'PointLight' in clazz or 'SpotLight' in clazz:
         markdown.write('- Class: %s\n' % (clazz))
         return
     elif 'HierarchicalInstancedStaticMeshComponent' in clazz:
@@ -134,9 +134,11 @@ def generate_report(root):
         markdown.write(markdeep_head)
         markdown.write("**umap-doctor %s**\n\n" % (root['Filename']))
 
-        level_0 = root['Children'][0]['Children'][0]
-        for child in level_0['Children']:
-            process_node(child, markdown)
+        for item in root['Children']:
+            if item['Type'] != 'Map': continue
+            level_0 = item['Children'][0]
+            for child in level_0['Children']:
+                process_node(child, markdown)
         print("Written to %s" % html_file)
 
 if __name__ == '__main__':
