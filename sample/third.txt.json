@@ -1,0 +1,1102 @@
+{
+  "Filename": "C:\\svn_pool\\umap-doctor\\sample\\third.txt",
+  "Children": [
+    {
+      "Type": "Map",
+      "Children": [
+        {
+          "Type": "Level",
+          "Children": [
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Script/Engine.BodySetup",
+                      "Name": "RB_BodySetup_0",
+                      "bGenerateMirroredCollision": "False",
+                      "PhysicsType": "PhysType_Kinematic",
+                      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+                    }
+                  ],
+                  "Class": "/Script/Engine.BrushComponent",
+                  "Name": "BrushComponent0",
+                  "Archetype": "BrushComponent'/Script/Engine.Default__LightmassImportanceVolume:BrushComponent0'",
+                  "Brush": "Model'Model_4'",
+                  "BrushBodySetup": "BodySetup'RB_BodySetup_0'"
+                },
+                {
+                  "Type": "Brush",
+                  "Children": [
+                    {
+                      "Type": "PolyList",
+                      "Children": [
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Flags": "3584",
+                          "Link": "0"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Flags": "3584",
+                          "Link": "1"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Flags": "3584",
+                          "Link": "2"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Flags": "3584",
+                          "Link": "3"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Flags": "3584",
+                          "Link": "4"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Flags": "3584",
+                          "Link": "5"
+                        }
+                      ]
+                    }
+                  ],
+                  "Name": "Model_4"
+                }
+              ],
+              "Class": "/Script/Engine.LightmassImportanceVolume",
+              "Name": "LightmassImportanceVolume_0",
+              "Archetype": "/Script/Engine.LightmassImportanceVolume'/Script/Engine.Default__LightmassImportanceVolume'",
+              "Brush": "Model'Model_4'",
+              "BrushComponent": "BrushComponent0",
+              "RootComponent": "BrushComponent0",
+              "ActorLabel": "LightmassImportanceVolume",
+              "FolderPath": "Lighting"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__AtmosphericFog:Sprite'",
+                  "AttachParent": "AtmosphericFogComponent0"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.AtmosphericFogComponent",
+                  "Name": "AtmosphericFogComponent0",
+                  "Archetype": "AtmosphericFogComponent'/Script/Engine.Default__AtmosphericFog:AtmosphericFogComponent0'"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.ArrowComponent",
+                  "Name": "ArrowComponent0",
+                  "Archetype": "ArrowComponent'/Script/Engine.Default__AtmosphericFog:ArrowComponent0'",
+                  "AttachParent": "AtmosphericFogComponent0"
+                }
+              ],
+              "Class": "/Script/Engine.AtmosphericFog",
+              "Name": "AtmosphericFog_1",
+              "Archetype": "/Script/Engine.AtmosphericFog'/Script/Engine.Default__AtmosphericFog'",
+              "AtmosphericFogComponent": "AtmosphericFogComponent0",
+              "RootComponent": "AtmosphericFogComponent0",
+              "ActorLabel": "AtmosphericFog",
+              "FolderPath": "RenderFX"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.SceneComponent",
+                  "Name": "Base",
+                  "Archetype": "SceneComponent'/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:SceneComponent_1'",
+                  "UCSSerializationIndex": "0",
+                  "bNetAddressable": "True",
+                  "CreationMethod": "SimpleConstructionScript"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Script/Engine.MaterialInstanceDynamic",
+                      "Name": "MaterialInstanceDynamic_0",
+                      "Parent": "Material'/Engine/EngineSky/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2'",
+                      "CachedReferencedTextures(0)": "Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'",
+                      "CachedReferencedTextures(1)": "Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'",
+                      "CachedReferencedTextures(2)": "Texture2D'/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue'",
+                      "LightingGuid": "7244A499466DB20940769FAF469452B2"
+                    }
+                  ],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "SkySphereMesh",
+                  "Archetype": "StaticMeshComponent'/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:SkySphereMesh_GEN_VARIABLE'",
+                  "OverrideMaterials(0)": "MaterialInstanceDynamic'MaterialInstanceDynamic_0'",
+                  "AttachParent": "Base",
+                  "UCSSerializationIndex": "0",
+                  "bNetAddressable": "True",
+                  "CreationMethod": "SimpleConstructionScript"
+                }
+              ],
+              "Class": "/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C",
+              "Name": "SkySphereBlueprint",
+              "Archetype": "/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C'/Engine/EngineSky/BP_Sky_Sphere.Default__BP_Sky_Sphere_C'",
+              "SkySphereMesh": "SkySphereMesh",
+              "Base": "Base",
+              "Sky material": "MaterialInstanceDynamic'SkySphereMesh.MaterialInstanceDynamic_0'",
+              "Directional light actor": "DirectionalLight'LightSource_0'",
+              "Sun height": "0.736771",
+              "Sun brightness": "75.000000",
+              "Cloud speed": "2.000000",
+              "Cloud opacity": "1.000000",
+              "RootComponent": "Base",
+              "ActorLabel": "SkySphereBlueprint"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.SphereReflectionCaptureComponent",
+                  "Name": "NewReflectionComponent",
+                  "Archetype": "SphereReflectionCaptureComponent'/Script/Engine.Default__SphereReflectionCapture:NewReflectionComponent'",
+                  "PreviewInfluenceRadius": "DrawRadius0",
+                  "MapBuildDataId": "3884DE244CA9D1E5320A11B1C608A293"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__SphereReflectionCapture:Sprite'",
+                  "AttachParent": "NewReflectionComponent"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "CaptureOffset",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__SphereReflectionCapture:CaptureOffset'",
+                  "AttachParent": "NewReflectionComponent"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Script/Engine.BodySetup",
+                      "Name": "BodySetup_0",
+                      "Archetype": "BodySetup'/Script/Engine.Default__SphereReflectionCapture:DrawRadius0.BodySetup_0'"
+                    }
+                  ],
+                  "Class": "/Script/Engine.DrawSphereComponent",
+                  "Name": "DrawRadius0",
+                  "Archetype": "DrawSphereComponent'/Script/Engine.Default__SphereReflectionCapture:DrawRadius0'",
+                  "SphereRadius": "3000.000000",
+                  "AreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+                  "AttachParent": "NewReflectionComponent"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.DrawSphereComponent",
+                  "Name": "DrawRadius1",
+                  "Archetype": "DrawSphereComponent'/Script/Engine.Default__SphereReflectionCapture:DrawRadius1'",
+                  "AreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+                  "AttachParent": "NewReflectionComponent"
+                }
+              ],
+              "Class": "/Script/Engine.SphereReflectionCapture",
+              "Name": "SphereReflectionCapture",
+              "Archetype": "/Script/Engine.SphereReflectionCapture'/Script/Engine.Default__SphereReflectionCapture'",
+              "DrawCaptureRadius": "DrawRadius1",
+              "CaptureComponent": "NewReflectionComponent",
+              "RootComponent": "NewReflectionComponent",
+              "ActorLabel": "SphereReflectionCapture",
+              "FolderPath": "RenderFX"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.CapsuleComponent",
+                  "Name": "CollisionCapsule",
+                  "Archetype": "CapsuleComponent'/Script/Engine.Default__PlayerStart:CollisionCapsule'",
+                  "AreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite'",
+                  "AttachParent": "CollisionCapsule",
+                  "bVisible": "False"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite2",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__PlayerStart:Sprite2'",
+                  "AttachParent": "CollisionCapsule",
+                  "bVisible": "True"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.ArrowComponent",
+                  "Name": "Arrow",
+                  "Archetype": "ArrowComponent'/Script/Engine.Default__PlayerStart:Arrow'",
+                  "AttachParent": "CollisionCapsule"
+                }
+              ],
+              "Class": "/Script/Engine.PlayerStart",
+              "Name": "NetworkPlayerStart",
+              "Archetype": "/Script/Engine.PlayerStart'/Script/Engine.Default__PlayerStart'",
+              "CapsuleComponent": "CollisionCapsule",
+              "GoodSprite": "Sprite",
+              "BadSprite": "Sprite2",
+              "RootComponent": "CollisionCapsule",
+              "ActorLabel": "NetworkPlayerStart"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.SceneComponent",
+                  "Name": "SceneComp",
+                  "Archetype": "SceneComponent'/Script/Engine.Default__DocumentationActor:SceneComp'"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.MaterialBillboardComponent",
+                  "Name": "BillboardComponent",
+                  "Archetype": "MaterialBillboardComponent'/Script/Engine.Default__DocumentationActor:BillboardComponent'",
+                  "AttachParent": "SceneComp"
+                }
+              ],
+              "Class": "/Script/Engine.DocumentationActor",
+              "Name": "DocumentationActor1",
+              "Archetype": "/Script/Engine.DocumentationActor'/Script/Engine.Default__DocumentationActor'",
+              "RootComponent": "SceneComp",
+              "ActorLabel": "DocumentationActor1"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "128",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_545C07034C4CD50D46BBB1AB02DFBF8A0100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "1"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Linear_Stair_StaticMesh",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Linear_Stair_StaticMesh",
+              "FolderPath": "ArenaGeometry/Walkway"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "128",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_697EB2434881CB66BE279F8F85092C710100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "2"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Bump_StaticMesh",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Bump_StaticMesh",
+              "FolderPath": "ArenaGeometry/Walkway"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "128",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_88BEF481456F1476C2BCF9B20C8494C80100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "3"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "LeftArm_StaticMesh",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "LeftArm_StaticMesh",
+              "FolderPath": "ArenaGeometry/Walkway"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "128",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_C29A165749F1EE892A500698A08FB7230100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "4"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "RightArm_StaticMesh",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "RightArm_StaticMesh",
+              "FolderPath": "ArenaGeometry/Walkway"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "128",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_EE38A87A4F8836BEAD83E2B169546E8D0100000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "5"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Ramp_StaticMesh",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Ramp_StaticMesh",
+              "FolderPath": "ArenaGeometry/Walkway"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer'",
+                  "bOverrideLightMapRes": "True",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_B1FE2B8D43DD89DB08E85E83598A67830000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "CubeMesh_5",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "CubeMesh"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.DirectionalLightComponent",
+                  "Name": "LightComponent0",
+                  "Archetype": "DirectionalLightComponent'/Script/Engine.Default__DirectionalLight:LightComponent0'",
+                  "bUsedAsAtmosphereSunLight": "True",
+                  "bCastModulatedShadows": "True",
+                  "LightGuid": "4BE7F0B34F488EDC3ED8D1BC32457632",
+                  "Intensity": "2.750000"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.ArrowComponent",
+                  "Name": "ArrowComponent0",
+                  "Archetype": "ArrowComponent'/Script/Engine.Default__DirectionalLight:ArrowComponent0'",
+                  "AttachParent": "LightComponent0"
+                }
+              ],
+              "Class": "/Script/Engine.DirectionalLight",
+              "Name": "LightSource_0",
+              "Archetype": "/Script/Engine.DirectionalLight'/Script/Engine.Default__DirectionalLight'",
+              "ArrowComponent": "ArrowComponent0",
+              "DirectionalLightComponent": "LightComponent0",
+              "LightComponent": "LightComponent0",
+              "RootComponent": "LightComponent0",
+              "ActorLabel": "Light Source",
+              "FolderPath": "Lighting"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Script/Engine.BodySetup",
+                      "Name": "BodySetup_4",
+                      "bGenerateMirroredCollision": "False",
+                      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+                    }
+                  ],
+                  "Class": "/Script/Engine.BrushComponent",
+                  "Name": "BrushComponent0",
+                  "Archetype": "BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0'",
+                  "Brush": "Model'Model_8'",
+                  "BrushBodySetup": "BodySetup'BodySetup_4'"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/UnrealEd.CubeBuilder",
+                  "Name": "CubeBuilder_6",
+                  "Layer": "Cube"
+                },
+                {
+                  "Type": "Brush",
+                  "Children": [
+                    {
+                      "Type": "PolyList",
+                      "Children": [
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Link": "0"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Link": "1"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Link": "2"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Link": "3"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Link": "4"
+                        },
+                        {
+                          "Type": "Polygon",
+                          "Children": [],
+                          "Link": "5"
+                        }
+                      ]
+                    }
+                  ],
+                  "Name": "Model_8"
+                }
+              ],
+              "Class": "/Script/Engine.PostProcessVolume",
+              "Name": "PostProcessVolume_0",
+              "Archetype": "/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume'",
+              "bUnbound": "True",
+              "BrushType": "Brush_Add",
+              "Brush": "Model'Model_8'",
+              "BrushComponent": "BrushComponent0",
+              "BrushBuilder": "CubeBuilder'CubeBuilder_6'",
+              "bHidden": "False",
+              "RootComponent": "BrushComponent0",
+              "ActorLabel": "PostProcessVolume",
+              "FolderPath": "Lighting"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__SkyLight:Sprite'",
+                  "AttachParent": "SkyLightComponent0"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.SkyLightComponent",
+                  "Name": "SkyLightComponent0",
+                  "Archetype": "SkyLightComponent'/Script/Engine.Default__SkyLight:SkyLightComponent0'",
+                  "LightGuid": "0676CEC042895FBBAFB8C79171742C25"
+                }
+              ],
+              "Class": "/Script/Engine.SkyLight",
+              "Name": "SkyLight_0",
+              "Archetype": "/Script/Engine.SkyLight'/Script/Engine.Default__SkyLight'",
+              "LightComponent": "SkyLightComponent0",
+              "RootComponent": "SkyLightComponent0",
+              "ActorLabel": "SkyLight",
+              "FolderPath": "Lighting"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/Geometry/Meshes/TemplateFloor.TemplateFloor'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "512",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "7"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Floor_1",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Floor",
+              "FolderPath": "ArenaGeometry/Arena",
+              "OnEndPlay": "(ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_Floor_1_K2Node_ActorBoundEvent_0_ActorEndPlaySignature__DelegateSignature)"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "256",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "8"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Wall7_4",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Wall7",
+              "FolderPath": "ArenaGeometry/Arena"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "256",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "9"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Wall9",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Wall9",
+              "FolderPath": "ArenaGeometry/Arena"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "256",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "10"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Wall10",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Wall10",
+              "FolderPath": "ArenaGeometry/Arena"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.StaticMeshComponent",
+                  "Name": "StaticMeshComponent0",
+                  "Archetype": "StaticMeshComponent'/Script/Engine.Default__StaticMeshActor:StaticMeshComponent0'",
+                  "StaticMesh": "StaticMesh'/Game/Geometry/Meshes/1M_Cube.1M_Cube'",
+                  "bOverrideLightMapRes": "True",
+                  "OverriddenLightMapRes": "256",
+                  "StaticMeshDerivedDataKey": "STATICMESH_46A8778361B442A9523C54440EA1E9D_2C1BC8F50A7A43818AFE266EB43D9060Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_A6F574154019B4ECBC7B0CB6A03071CD0000000001000000010000000100000000000000010000004000000000000000010000000000803F0000803F0000803F0000803F000000000000803F00000000000000000000344203030300000000",
+                  "OverrideMaterials(0)": "None",
+                  "VisibilityId": "11"
+                }
+              ],
+              "Class": "/Script/Engine.StaticMeshActor",
+              "Name": "Wall11",
+              "Archetype": "/Script/Engine.StaticMeshActor'/Script/Engine.Default__StaticMeshActor'",
+              "StaticMeshComponent": "StaticMeshComponent0",
+              "RootComponent": "StaticMeshComponent0",
+              "ActorLabel": "Wall11",
+              "FolderPath": "ArenaGeometry/Arena"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.TextRenderComponent",
+                  "Name": "NewTextRenderComponent",
+                  "Archetype": "TextRenderComponent'/Script/Engine.Default__TextRenderActor:NewTextRenderComponent'",
+                  "Text": "NSLOCTEXT([67872BA74C48E42AB1833F81618ECB5A], 2295A5CE4C86A968A4F8909861C06D94, Third Person)",
+                  "HorizontalAlignment": "EHTA_Center",
+                  "VerticalAlignment": "EVRTA_TextCenter",
+                  "WorldSize": "160.000000"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__TextRenderActor:Sprite'",
+                  "AttachParent": "NewTextRenderComponent"
+                }
+              ],
+              "Class": "/Script/Engine.TextRenderActor",
+              "Name": "TextRenderActor_1",
+              "Archetype": "/Script/Engine.TextRenderActor'/Script/Engine.Default__TextRenderActor'",
+              "TextRender": "NewTextRenderComponent",
+              "RootComponent": "NewTextRenderComponent",
+              "ActorLabel": "TextRenderActor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin_0",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin2_1",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin2",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True",
+                  "bGenerateOverlapEvents": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin3_2",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin3",
+              "FolderPath": "Actor",
+              "OnActorBeginOverlap": "(ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_SK_Mannequin3_2_K2Node_ActorBoundEvent_3_ActorBeginOverlapSignature__DelegateSignature)"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin4_3",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin4",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin5_4",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin5",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin6_5",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin6",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin7_6",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin7",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+                      "Name": "ThirdPerson_AnimBP_C_0",
+                      "AnimGraphNode_BlendSpacePlayer": "()"
+                    }
+                  ],
+                  "Class": "/Script/Engine.SkeletalMeshComponent",
+                  "Name": "SkeletalMeshComponent0",
+                  "Archetype": "SkeletalMeshComponent'/Script/Engine.Default__SkeletalMeshActor:SkeletalMeshComponent0'",
+                  "AnimClass": "AnimBlueprintGeneratedClass'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C'",
+                  "bDisablePostProcessBlueprint": "True",
+                  "ClothingSimulationFactory": "Class'/Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv'",
+                  "SkeletalMesh": "SkeletalMesh'/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin'",
+                  "VisibilityBasedAnimTickOption": "OnlyTickPoseWhenRendered",
+                  "bEnableUpdateRateOptimizations": "True"
+                }
+              ],
+              "Class": "/Script/Engine.SkeletalMeshActor",
+              "Name": "SK_Mannequin8_7",
+              "Archetype": "/Script/Engine.SkeletalMeshActor'/Script/Engine.Default__SkeletalMeshActor'",
+              "SkeletalMeshComponent": "SkeletalMeshComponent0",
+              "RootComponent": "SkeletalMeshComponent0",
+              "ActorLabel": "SK_Mannequin8",
+              "FolderPath": "Actor"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [
+                    {
+                      "Type": "Object",
+                      "Children": [],
+                      "Class": "/Script/Engine.BodySetup",
+                      "Name": "BodySetup_0",
+                      "Archetype": "BodySetup'/Script/Engine.Default__TriggerBox:CollisionComp.BodySetup_0'"
+                    }
+                  ],
+                  "Class": "/Script/Engine.BoxComponent",
+                  "Name": "CollisionComp",
+                  "Archetype": "BoxComponent'/Script/Engine.Default__TriggerBox:CollisionComp'",
+                  "AreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__TriggerBox:Sprite'",
+                  "AttachParent": "CollisionComp"
+                }
+              ],
+              "Class": "/Script/Engine.TriggerBox",
+              "Name": "TriggerBox_1",
+              "Archetype": "/Script/Engine.TriggerBox'/Script/Engine.Default__TriggerBox'",
+              "CollisionComponent": "CollisionComp",
+              "RootComponent": "CollisionComp",
+              "ActorLabel": "TriggerBox",
+              "OnActorHit": "(ThirdPersonExampleMap_C_6.BndEvt__ThirdPersonExampleMap_TriggerBox_1_K2Node_ActorBoundEvent_1_ActorHitSignature__DelegateSignature)"
+            },
+            {
+              "Type": "Actor",
+              "Children": [
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.SphereComponent",
+                  "Name": "CollisionComp",
+                  "Archetype": "SphereComponent'/Script/Engine.Default__TriggerSphere:CollisionComp'",
+                  "AreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'"
+                },
+                {
+                  "Type": "Object",
+                  "Children": [],
+                  "Class": "/Script/Engine.BillboardComponent",
+                  "Name": "Sprite",
+                  "Archetype": "BillboardComponent'/Script/Engine.Default__TriggerSphere:Sprite'",
+                  "AttachParent": "CollisionComp"
+                }
+              ],
+              "Class": "/Script/Engine.TriggerSphere",
+              "Name": "TriggerSphere_1",
+              "Archetype": "/Script/Engine.TriggerSphere'/Script/Engine.Default__TriggerSphere'",
+              "CollisionComponent": "CollisionComp",
+              "RootComponent": "CollisionComp",
+              "ActorLabel": "TriggerSphere"
+            }
+          ]
+        },
+        {
+          "Type": "Surface",
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Type": "FolderList",
+      "Children": [],
+      "Folder": "RenderFX"
+    }
+  ]
+}
